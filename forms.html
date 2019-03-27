@@ -11,13 +11,28 @@
 <!--method - what HTTP method (get/post)-->
 
 <form>
+
+<label>
+    Username:
 <input name="username" type="text" placeholder="username">
-<!--<input type="color">-->
+</label>
+    <!--<input type="color">-->
 <!--<input type="radio">-->
-<input name="password" type="password" placeholder="password">
+    <label>
+        Password:
+        <input name="password" type="password" placeholder="password">
+    </label>
 <input type="submit">
 </form>
 
+<form action="http://www.wikipedia.org">
+    <label for="username">Username:</label>
+    <input id="username" type="text" placeholder="username">
+
+    <label for="password">Password:</label>
+    <input id="password" type="password" placeholder="password">
+    <input type="submit">
+</form>
 
 </body>
 </head>
