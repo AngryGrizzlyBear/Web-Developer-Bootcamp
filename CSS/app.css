@@ -1,7 +1,23 @@
 h1 {
     color: #54206E;
+    /*border-color: purple;*/
+    /*border-width: 5px;*/
+    /*border-style: dashed;*/
+
+    border: purple 5px solid;
 }
 
 li {
     color: rgba(11, 99, 140, .6);
+
+}
+
+h4 {
+    background: rgb(255, 100, 80)
+}
+
+body {
+    background: pink;
+    /*background: url("https://previews.123rf.com/images/xurzon/xurzon1711/xurzon171100073/89423873-old-concrete-texture-with-wood-grain-for-background.jpg") no-repeat;*/
+    /*background-size: cover;*/
 }
