@@ -1,11 +1,11 @@
 /*font-family*/
 
 p {
-    font-family: "Arial", serif;
+    font-family: Raleway, serif;
 }
 
 h1 {
-    font-family: Georgia, serif;
+    font-family: Indie Flower, serif;
 }
 /*font-size*/
 h1 {
@@ -25,13 +25,17 @@ span {
 }
 /*font-weight*/
 p {
-    font-weight: bold;
+    font-weight: normal;
 }
 /*line-height*/
 p {
     line-height: 1.5;
 }
 /*text-align*/
+
+h1{
+    text-align: right;
+}
 p {
     text-align: center;
 }
